@@ -1,4 +1,33 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment
 .env
+.env.*
+!.env.example
+*.local
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
 .DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Local design brief (kept out of the public repo)
+Premium_3D_Chair_Finder_Claude_Master_Specification.docx
